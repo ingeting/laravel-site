@@ -1,0 +1,8 @@
+{
+  "name": "My LaravelProject",
+  "dependencies": {
+    "jquery": "~1.10.x",
+    "foundation": "~5.1.0"
+
+  }
+}
