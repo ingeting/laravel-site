@@ -11,9 +11,17 @@
 |
 */
 
+
+Route::get('/admin/', function()
+{
+
+	//print SirTrevorJs::stylesheets();
+	return View::make('admin');
+});
+
 Route::get('/', function()
 {
 
 	//print SirTrevorJs::stylesheets();
-	return View::make('hello', array('sirTrevorJs' => SirTrevorJs::stylesheets(), 'sirTrevorCss' => SirTrevorJs::scripts() ) );
+	return View::make('admin', array('sirTrevorJs' => SirTrevorJs::stylesheets(), 'sirTrevorCss' => SirTrevorJs::scripts() ) );
 });
