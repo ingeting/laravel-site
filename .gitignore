@@ -10,3 +10,4 @@ Thumbs.db
 /.sass-cache/*
 *.DS_Store
 /stylesheets/*
+/public/bower_components
