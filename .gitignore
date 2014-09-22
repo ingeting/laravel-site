@@ -11,3 +11,5 @@ Thumbs.db
 *.DS_Store
 /stylesheets/*
 /public/bower_components
+/node_modules
+/public/
