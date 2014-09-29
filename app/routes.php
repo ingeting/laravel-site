@@ -23,5 +23,5 @@ Route::get('/', function()
 {
 
 	//print SirTrevorJs::stylesheets();
-	return View::make('admin', array('sirTrevorJs' => SirTrevorJs::stylesheets(), 'sirTrevorCss' => SirTrevorJs::scripts() ) );
+	return View::make('admin');
 });
